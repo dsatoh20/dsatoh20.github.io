@@ -22,8 +22,8 @@ I am a physician based in Japan, currently completing my postgraduate clinical t
 
 I document my learning in the following areas:
 
-- [Epidemiology & Biostatistics](epidemiology/) — Notes on epidemiological methods and biostatistics
-- [Paper Notes](paper_notes/) — Critical appraisals of research papers (epidemiology, clinical research)
+- [Epidemiology & Biostatistics](epidemiology/index.md) — Notes on epidemiological methods and biostatistics
+- [Paper Notes](paper_notes/index.md) — Critical appraisals of research papers (epidemiology, clinical research)
 - Reading notes (fiction & non-fiction) — [ReadEchoes](https://readechoes.com)
 
 ---
