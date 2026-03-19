@@ -1,0 +1,27 @@
+site_name: Daisuke Satoh
+site_url: https://dsatoh20.github.io
+site_description: Portfolio and learning records of Daisuke Satoh, MD
+site_author: Daisuke Satoh
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: default
+    primary: teal
+    accent: teal
+  features:
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+
+nav:
+  - Home: index.md
+  - Epidemiology & Biostatistics: epidemiology/index.md
+  - Paper Notes: paper_notes/index.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
