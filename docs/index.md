@@ -24,7 +24,7 @@ I document my learning in the following areas:
 
 - [Epidemiology & Biostatistics](epidemiology/index.md) — Notes on epidemiological methods and biostatistics
 - [Paper Notes](paper_notes/index.md) — Critical appraisals of research papers (epidemiology, clinical research)
-- Reading notes (fiction & non-fiction) — [ReadEchoes](https://readechoes.com)
+- Reading notes (fiction & non-fiction) — [ReadEchoes](https://readechoes.com/portfolio/dasa)
 
 ---
 
