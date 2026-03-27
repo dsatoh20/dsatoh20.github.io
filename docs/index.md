@@ -22,7 +22,8 @@ I am a physician based in Japan, currently completing my postgraduate clinical t
 
 I document my learning in the following areas:
 
-- [Epidemiology & Biostatistics](epidemiology/index.md) — Notes on epidemiological methods and biostatistics
+- [Epidemiology](epidemiology/index.md) — Notes on study design, causal inference, and social determinants of health
+- [Statistics](statistics/index.md) — Notes on statistical theory (estimation, hypothesis testing, regression)
 - [Paper Notes](paper_notes/index.md) — Critical appraisals of research papers (epidemiology, clinical research)
 - Reading notes (fiction & non-fiction) — [ReadEchoes](https://readechoes.com/portfolio/dasa)
 
