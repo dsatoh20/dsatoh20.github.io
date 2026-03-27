@@ -17,7 +17,8 @@ theme:
 
 nav:
   - Home: index.md
-  - Epidemiology & Biostatistics: epidemiology/index.md
+  - Epidemiology: epidemiology/index.md
+  - Statistics: statistics/index.md
   - Paper Notes: paper_notes/index.md
 
 markdown_extensions:
