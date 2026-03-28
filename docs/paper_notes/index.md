@@ -26,3 +26,4 @@
 - [2026-03-11_Nyberg2026_obesity_and_infections](2026-03-11_Nyberg2026_obesity_and_infections.md)
 - [2026-03-11_Zeevi2015_personalized_nutrition](2026-03-11_Zeevi2015_personalized_nutrition.md)
 - [2026-03-17_Takaya2022_older_trhrombus](2026-03-17_Takaya2022_older_trhrombus.md)
+- [2026-03-28_Aida2009_social_capital_dental_health](2026-03-28_Aida2009_social_capital_dental_health.md)
