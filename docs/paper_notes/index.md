@@ -27,3 +27,4 @@
 - [2026-03-11_Zeevi2015_personalized_nutrition](2026-03-11_Zeevi2015_personalized_nutrition.md)
 - [2026-03-17_Takaya2022_older_trhrombus](2026-03-17_Takaya2022_older_trhrombus.md)
 - [2026-03-28_Aida2009_social_capital_dental_health](2026-03-28_Aida2009_social_capital_dental_health.md)
+- [2026-03-29_Borghaei2015_nivolumab_docetaxel](2026-03-29_Borghaei2015_nivolumab_docetaxel.md)

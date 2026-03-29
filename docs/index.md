@@ -1,6 +1,6 @@
 # Daisuke Satoh
 
-Medical Doctor | Aspiring Social Epidemiologist
+Medical Doctor | Aspiring Epidemiologist
 
 ---
 
