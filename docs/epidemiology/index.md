@@ -7,3 +7,7 @@
 `YYYY-MM-DD_タイトル.md`
 
 例: `2026-05-10_交絡とは何か.md`
+
+## Notes
+
+- [2026-04-12_disease-occurence-measurement](2026-04-12_disease-occurence-measurement.md)
