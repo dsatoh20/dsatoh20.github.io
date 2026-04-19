@@ -53,3 +53,4 @@
 - [2026-03-29_Borghaei2015_nivolumab_docetaxel](2026-03-29_Borghaei2015_nivolumab_docetaxel.md)
 - [2026-04-11_Koning2020_lung_cancer_CTscreening](2026-04-11_Koning2020_lung_cancer_CTscreening.md)
 - [2026-04-15_LinkPhelan1995_fundamental-causes](2026-04-15_LinkPhelan1995_fundamental-causes.md)
+- [2026-04-17_Douxfils2016_TKI_cardiovascular_events](2026-04-17_Douxfils2016_TKI_cardiovascular_events.md)
