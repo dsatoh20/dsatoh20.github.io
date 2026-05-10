@@ -54,4 +54,5 @@
 - [2026-04-11_Koning2020_lung_cancer_CTscreening](2026-04-11_Koning2020_lung_cancer_CTscreening.md)
 - [2026-04-15_LinkPhelan1995_fundamental-causes](2026-04-15_LinkPhelan1995_fundamental-causes.md)
 - [2026-04-17_Douxfils2016_TKI_cardiovascular_events](2026-04-17_Douxfils2016_TKI_cardiovascular_events.md)
+- [2026-04-26_Yagi2019_cervical_cancer](2026-04-26_Yagi2019_cervical_cancer.md)
 - [2026-05-09_Bilt2025_ACCURE_trial](2026-05-09_Bilt2025_ACCURE_trial.md)
