@@ -57,3 +57,4 @@
 - [2026-04-26_Yagi2019_cervical_cancer](2026-04-26_Yagi2019_cervical_cancer.md)
 - [2026-05-09_Bilt2025_ACCURE_trial](2026-05-09_Bilt2025_ACCURE_trial.md)
 - [2026-05-16_Dagan2021_COVID19_vaccine](2026-05-16_Dagan2021_COVID19_vaccine.md)
+- [2026-05-24_Stolarz-Skrzypek2011_CVD_Na_excretion](2026-05-24_Stolarz-Skrzypek2011_CVD_Na_excretion.md)
