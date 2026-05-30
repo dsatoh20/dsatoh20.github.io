@@ -59,3 +59,4 @@
 - [2026-05-16_Dagan2021_COVID19_vaccine](2026-05-16_Dagan2021_COVID19_vaccine.md)
 - [2026-05-24_Stolarz-Skrzypek2011_CVD_Na_excretion](2026-05-24_Stolarz-Skrzypek2011_CVD_Na_excretion.md)
 - [2026-05-28_Kim2026_whySDHnow](2026-05-28_Kim2026_whySDHnow.md)
+- [2026-05-29_Zha2019_asbestos_cohort](2026-05-29_Zha2019_asbestos_cohort.md)
