@@ -61,3 +61,4 @@
 - [2026-05-28_Kim2026_whySDHnow](2026-05-28_Kim2026_whySDHnow.md)
 - [2026-05-29_Zha2019_asbestos_cohort](2026-05-29_Zha2019_asbestos_cohort.md)
 - [2026-06-14_Perry2010_clinical_dicision_rule_for_SAH](2026-06-14_Perry2010_clinical_dicision_rule_for_SAH.md)
+- [2026-06-26_Travis2026_race_confounders](2026-06-26_Travis2026_race_confounders.md)
