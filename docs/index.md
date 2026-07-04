@@ -6,7 +6,11 @@ Medical Doctor | Aspiring Epidemiologist
 
 ## About Me
 
-I am a physician based in Japan, currently completing my postgraduate clinical training (2026–2028). My long-term goal is to pursue graduate study (MPH or PhD) in social epidemiology, with a particular focus on the social determinants of health (SDH) and health inequalities.
+I am a physician based in Japan, currently completing my postgraduate clinical training (2026–2028).
+
+My long-term goal is to contribute to reducing health inequalities — by generating evidence on the social determinants of health and translating it into policy and practice. To build the methodological foundation for this, I am preparing to pursue graduate study (MPH or PhD) in social epidemiology.
+
+My interest in this field stems from a persistent concern: the gap between what individual clinical care can achieve and the structural forces that shape population health. I want to work beyond the clinic — at the level of research and evidence-informed policy.
 
 ---
 
