@@ -62,3 +62,6 @@
 - [2026-05-29_Zha2019_asbestos_cohort](2026-05-29_Zha2019_asbestos_cohort.md)
 - [2026-06-14_Perry2010_clinical_dicision_rule_for_SAH](2026-06-14_Perry2010_clinical_dicision_rule_for_SAH.md)
 - [2026-06-26_Travis2026_race_confounders](2026-06-26_Travis2026_race_confounders.md)
+- [2026-07-12_GeHan2026_whose_education_health_trajectories](2026-07-12_GeHan2026_whose_education_health_trajectories.md)
+- [2026-07-12_Lindsay2026_missingness_interventions](2026-07-12_Lindsay2026_missingness_interventions.md)
+- [2026-07-16_Presley2018_genomic-sequencing-nsclc-survival](2026-07-16_Presley2018_genomic-sequencing-nsclc-survival.md)
