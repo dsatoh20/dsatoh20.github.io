@@ -65,3 +65,4 @@
 - [2026-07-12_GeHan2026_whose_education_health_trajectories](2026-07-12_GeHan2026_whose_education_health_trajectories.md)
 - [2026-07-12_Lindsay2026_missingness_interventions](2026-07-12_Lindsay2026_missingness_interventions.md)
 - [2026-07-16_Presley2018_genomic-sequencing-nsclc-survival](2026-07-16_Presley2018_genomic-sequencing-nsclc-survival.md)
+- [2026-08-09_Marmot1978_employment-grade-CHD](2026-08-09_Marmot1978_employment-grade-CHD.md)
