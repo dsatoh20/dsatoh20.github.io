@@ -66,3 +66,5 @@
 - [2026-07-12_Lindsay2026_missingness_interventions](2026-07-12_Lindsay2026_missingness_interventions.md)
 - [2026-07-16_Presley2018_genomic-sequencing-nsclc-survival](2026-07-16_Presley2018_genomic-sequencing-nsclc-survival.md)
 - [2026-08-09_Marmot1978_employment-grade-CHD](2026-08-09_Marmot1978_employment-grade-CHD.md)
+- [2026-08-11_Kiuchi2026_education-cancer-mortality](2026-08-11_Kiuchi2026_education-cancer-mortality.md)
+- [2026-09-13_Presley2018_genomic-sequencing-nsclc-survival](2026-09-13_Presley2018_genomic-sequencing-nsclc-survival.md)
