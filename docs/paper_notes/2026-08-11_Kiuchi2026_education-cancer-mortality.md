@@ -51,11 +51,15 @@
 - Stataの`med4way`コマンドで解析された模様。
 
 
+|語句|略|意味|
+|--|--|--|
 |Total Effect|TE|教育水準の違いが及ぼす全体の影響|
 |Natural Direct Effect|NDE|健康行動Mを介さない直接的な影響|
 |Natural Indirect Effect|NIE|健康行動Mを介した間接的な影響|
 
 
+|変数|||
+|--|--|--|
 |E|Exposure|教育水準|
 |M|Mediator|健康行動|
 |O|Outcome|癌死亡リスク|
