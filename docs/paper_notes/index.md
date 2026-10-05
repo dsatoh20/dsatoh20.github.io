@@ -68,3 +68,4 @@
 - [2026-08-09_Marmot1978_employment-grade-CHD](2026-08-09_Marmot1978_employment-grade-CHD.md)
 - [2026-08-11_Kiuchi2026_education-cancer-mortality](2026-08-11_Kiuchi2026_education-cancer-mortality.md)
 - [2026-09-13_Presley2018_genomic-sequencing-nsclc-survival](2026-09-13_Presley2018_genomic-sequencing-nsclc-survival.md)
+- [2026-10-01_Cai2026_ses-life-course-reserve-dementia](2026-10-01_Cai2026_ses-life-course-reserve-dementia.md)
