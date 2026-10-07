@@ -1,0 +1,452 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Portfolio and learning records of Daisuke Satoh, MD">
+      
+      
+        <meta name="author" content="Daisuke Satoh">
+      
+      
+        <link rel="canonical" href="https://dsatoh20.github.io/paper_notes/2026-06-26_Travis2026_race_confounders/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Does race have confounders? - Daisuke Satoh</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#does-race-have-confounders" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Daisuke Satoh" class="md-header__button md-logo" aria-label="Daisuke Satoh" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Daisuke Satoh
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Does race have confounders?
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Daisuke Satoh" class="md-nav__button md-logo" aria-label="Daisuke Satoh" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Daisuke Satoh
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../epidemiology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Epidemiology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../statistics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Statistics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Paper Notes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="does-race-have-confounders">Does race have confounders?<a class="headerlink" href="#does-race-have-confounders" title="Permanent link">&para;</a></h1>
+<p>DOI: 10.1136/jech-2026-226475</p>
+<h2 id="_1">主張<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>健康格差にかかる人種の効果について、いかに分析すべきか考える。</p>
+<h2 id="_2">背景<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>人種の定義の曖昧さゆえに、人種が健康アウトカムに与える影響を検証するのは容易くない。交絡因子として選択する変数を見誤ると、人種の効果推定に偏りを生じさせてしまう。</p>
+<h2 id="_3">論拠<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="estimand">Estimandを明確化せよ<a class="headerlink" href="#estimand" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>RQ</th>
+<th>Estimand</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>すべての経路を含めた全体としての影響度はいかほどか</td>
+<td>total effect</td>
+<td>mediatorsで調整しない</td>
+</tr>
+<tr>
+<td>直接的な影響度はいかほどか</td>
+<td>controlled direct effect</td>
+<td>mediatorsで調整する</td>
+</tr>
+<tr>
+<td>特定の経路における影響度はいかほどか</td>
+<td>indirect effect</td>
+<td>特定のmediatorを通る経路をみる</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dag">DAGを描け<a class="headerlink" href="#dag" title="Permanent link">&para;</a></h3>
+<p>変数がconfounderかmediatorか、DAGを描いて論理的に判断する。</p>
+<h3 id="_4">因果推論にかかる戦略<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>いかにしてMediatorsをブロックせずに、人種格差を評価するか。方法として、対象者の親のSESを交絡因子として調整することを提案する。これにより、世代を跨ぐ環境の差を調整できるため、人種のために本人が受けた影響を定量化しやすくすることができる。</p>
+<h2 id="_5">含意<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<ul>
+<li>人種は操作変数でないから、統計学的な因果推論で測るのは定義の曖昧さからして難しい。</li>
+<li>そこで、人種間格差を、個人、家族、近隣の社会経済的分布を人種間で等しく（equalized）した後に残る格差と解釈する。</li>
+<li>たとえば、人種を、差別経験という操作可能な変数としてとらえなおすことで、公衆衛生学的な介入の取っ掛かりとすることができる。</li>
+</ul>
+<h2 id="_6">考察<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
+<ul>
+<li>対象者自身のSocioeconomic statusは交絡因子でない、という主張について。対象者のSESは、交絡因子たる3条件; ①結果と関連する、②曝露と関連する、③曝露の結果でない　のうち、③を満たさない。①②を満たすが、③を満たさない因子を、媒介因子Mediatorと呼ぶ。</li>
+<li>人種の定義の曖昧さについて。肌の色で人間を区別するのは、生物学的ではなく、社会的な考えである。一方で生物としての人種は、遺伝的なグラデーションで構成される。社会医学が対象とするのは、前者に近い。</li>
+<li>一つの地域に複数の人種が存在する場合に限り、人種による健康格差が検証される。日本のようなほとんど単一民族で構成される地域では、この報告で検討されている内容は議論の対象になりにくいか。</li>
+</ul>
+<h2 id="by-claude-code">批判的吟味 by Claude Code<a class="headerlink" href="#by-claude-code" title="Permanent link">&para;</a></h2>
+<h3 id="_7">論拠の強度<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p><strong>Estimand明確化の枠組み</strong>は、Pearl流の構造的因果モデルと整合しており、現代の因果推論における標準的な議論を正確に踏まえている。Total effect / Controlled direct effect (CDE) / Natural indirect effect (NIE) という三区分は、VanderWeele（2015）のMediation Analysisの枠組みと対応し、論拠として堅固である。ただし表の"inderect effect"（→indirect effect）は誤字で、実際にはpath-specific effectやNIEをどう特定するかは表が示す以上に複雑な前提（cross-world independenceなど）を要求することは補足すべき点である。</p>
+<p><strong>DAGによる変数分類</strong>の方針は妥当だが、論文が依拠する論拠の中核である「人種の非操作性（non-manipulability）」の議論が含意節に簡略化されすぎている。"No manipulation, no causation"（Holland 1986）の原則から人種への因果推論が困難という結論は論理的に重要であるが、そこから「人種の因果効果は定義できない」とするか「特定の介入可能なメカニズムに分解すべき」とするかで研究戦略が180度変わる。この分岐の扱いが浅い点が論拠の限界。</p>
+<h3 id="_8">操作化可能性<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<p>本論文は「親のSESを交絡因子として調整する」という具体的な実証戦略を提案している。これは「SES分布を人種間でequalizedした後に残る格差＝人種の効果」という解釈に基づく操作化である。</p>
+<p>この戦略の強みは、対象者本人のSES（mediator）を調整変数から除外しつつ、世代を跨ぐ環境差を制御できる点にある。論拠が示すDAG上の論理とも整合する。</p>
+<p>ただし以下の限界は検討に値する：</p>
+<ol>
+<li><strong>親のSESの外生性問題</strong>：親のSES自体も祖父母世代における人種的不利益（segregation・差別）の下流にある可能性がある。どの世代まで遡るかによって調整量が変わるため、「どの時点を起点にするか」の明示的な設定が必要。</li>
+<li><strong>解釈の記述性</strong>：「SES equalized后の残差格差」は、特定の反事実シナリオ下での格差の大きさを示す記述的指標であり、因果効果の厳密な推定値ではない。この区別を論文がどこまで明示しているかは確認が必要。</li>
+<li><strong>未測定交絡</strong>：親のSESで調整しても、居住地・近隣環境・ネットワークなど測定されていない交絡が残りうる。</li>
+</ol>
+<h3 id="_9">競合理論との比較<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>枠組み</th>
+<th>人種の扱い</th>
+<th>本論文との関係</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VanderWeele &amp; Hernán (2012)</td>
+<td>非操作的曝露として因果効果を定義しない立場</td>
+<td>本論文の含意と概ね一致</td>
+</tr>
+<tr>
+<td>Kaufman et al. (2015) "Race and medical research"</td>
+<td>人種は生物学的実体でなく測定上のノイズとみなす</td>
+<td>より懐疑的な立場；本論文より踏み込んでいる</td>
+</tr>
+<tr>
+<td>Krieger (2014) Eco-social Theory</td>
+<td>人種を具体的差別経験・Embodimentとして操作化</td>
+<td>本論文の含意と方向性が一致；差別経験への操作化は本論文自身も提唱している</td>
+</tr>
+<tr>
+<td>Phelan &amp; Link "Fundamental Causes"</td>
+<td>人種をSESと同列のfundamental causeとして扱う</td>
+<td>人種の直接効果よりも構造的メカニズムを問う</td>
+</tr>
+</tbody>
+</table>
+<p>本論文の貢献はEstimand整理という方法論的明確化にあるが、「では人種研究を今後どう行うべきか」という研究戦略の議論はKriegerら競合枠組みと比べて不足している。</p>
+<h3 id="_10">ユーザー考察への補足<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h3>
+<p><strong>SESはmediatorという指摘</strong>は正確。ただし精緻化すると、「対象者のSES」が媒介因子か否かは時間的順序に依存する。出生後に形成されるSES（教育・職業）は人種の社会的カテゴリー化の下流にあるためmediatorだが、親のSESは対象者の社会的人種カテゴリー化に先行することもあり、その場合はconfoundering pathwayを形成しうる。DAGで時間軸を明示することが重要。</p>
+<p><strong>日本への適用について</strong>：「ほとんど単一民族」という前提には留意が必要。部落差別（Burakumin）・在日コリアン・沖縄出身者・アイヌなどのエスニシティ×健康格差は国内でも存在し、本論文のEstimand明確化の枠組みはそのまま適用可能である。国際比較の文脈では、人種カテゴリーの社会的構成性が国ごとに異なる点（米国の「黒人」カテゴリーと日本の「部落民」カテゴリーでは差別の機制が異なる）を踏まえた上での枠組み適用が求められる。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.top", "toc.integrate"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
