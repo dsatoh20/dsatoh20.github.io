@@ -12,3 +12,4 @@
 
 - [2026-04-12_disease-occurence-measurement](2026-04-12_disease-occurence-measurement.md)
 - [2026-05-31_error](2026-05-31_error.md)
+- [2026-11-08_propensity_score](2026-11-08_propensity_score.md)
