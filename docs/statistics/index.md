@@ -10,3 +10,4 @@
 
 ## Notes
 
+- [probabilistic_ML_Chapter3](probabilistic_ML_Chapter3.md)
