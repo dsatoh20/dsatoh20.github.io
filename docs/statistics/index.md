@@ -10,4 +10,5 @@
 
 ## Notes
 
+- [2026-11-10_hierarchical-regression-vs-model](2026-11-10_hierarchical-regression-vs-model.md)
 - [probabilistic_ML_Chapter3](probabilistic_ML_Chapter3.md)
