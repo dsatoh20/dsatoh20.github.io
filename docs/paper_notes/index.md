@@ -70,3 +70,4 @@
 - [2026-09-13_Presley2018_genomic-sequencing-nsclc-survival](2026-09-13_Presley2018_genomic-sequencing-nsclc-survival.md)
 - [2026-10-01_Cai2026_ses-life-course-reserve-dementia](2026-10-01_Cai2026_ses-life-course-reserve-dementia.md)
 - [2026-10-13_BellRedelmeier2001_weekend-admission-mortality](2026-10-13_BellRedelmeier2001_weekend-admission-mortality.md)
+- [2026-11-17_Pierce2021_bruising-abuse-decision-rule](2026-11-17_Pierce2021_bruising-abuse-decision-rule.md)
