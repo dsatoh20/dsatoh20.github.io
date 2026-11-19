@@ -72,6 +72,9 @@
   3. あざの性状評価（内因的な皮疹との鑑別含めて）
 - なお、本研究の最大のLimitationは、正解ラベルが真虐待を示していないことと考える。厳密に表現すれば、TEN-4-FACESpで判別できるのは、当該9人の小児外傷専門家が虐待ハイリスクと考えるか否か、である。
 
+## 参考文献
+- [発表資料](https://docs.google.com/presentation/d/1R_RSMwiVFrrVCx5Kpw0r_VL473DWzaWQhjtEzQ30psw/edit?usp=sharing)
+
 ## 批判的吟味（疫学的視点）by Claude Code
 
 ### 記載の確認（本文 PMC8047759 と照合）
@@ -96,6 +99,3 @@
 
 ### 総括
 TEN-4を新しい前向き多施設データで外部検証し、感度の不足を示した点は確かな貢献。一方、TEN-4-FACESpの精度は、reference standardの取り込みバイアス、データ駆動の閾値設定、内部検証のみという3つの理由で、上限寄りの推定と読むべき。メモは誤差表を作った点は良い。考察は、ラベルが不正確という問題を、評価が循環しているという問題まで掘り下げるとよい。
-
-## 参考文献
-- [発表資料](https://docs.google.com/presentation/d/1R_RSMwiVFrrVCx5Kpw0r_VL473DWzaWQhjtEzQ30psw/edit?usp=sharing)
