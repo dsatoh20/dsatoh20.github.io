@@ -1,0 +1,399 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Portfolio and learning records of Daisuke Satoh, MD">
+      
+      
+        <meta name="author" content="Daisuke Satoh">
+      
+      
+        <link rel="canonical" href="https://dsatoh20.github.io/epidemiology/2026-11-08_propensity_score/">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Propensity score - Daisuke Satoh</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#propensity-score" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Daisuke Satoh" class="md-header__button md-logo" aria-label="Daisuke Satoh" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Daisuke Satoh
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Propensity score
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Daisuke Satoh" class="md-nav__button md-logo" aria-label="Daisuke Satoh" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Daisuke Satoh
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Epidemiology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../statistics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Statistics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../paper_notes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Paper Notes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="propensity-score">Propensity score<a class="headerlink" href="#propensity-score" title="Permanent link">&para;</a></h1>
+<h2 id="_1">はじめに<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="_2">回帰モデルで交絡を制御する<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<p>ロスマン曰く、交絡制御の第一歩は必ず、層別解析Stratified analysisであるべきです。しかし、現実的な解析の場面ではしばしば、Stratificationの弱みに直面します。その弱みとは、<strong>交絡因子が多くなるほどに、サブグループごとのサンプルサイズが小さくなり、検出力が弱くなってしまう</strong>(Random errorの影響が大きくなる)ことです。</p>
+<p>複数の交絡を同時に制御する方法として最も一般的なRegression modelにおいても、同様の理由から、あまりにも多い交絡因子の調節は困難となります。</p>
+<h4 id="_3">回帰モデルで変数を増やすとどうなるか<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h4>
+<h5 id="1">1. 回帰係数の推定精度が落ちる<a class="headerlink" href="#1" title="Permanent link">&para;</a></h5>
+<p>Regression modelにおいて、説明変数数<code>k</code>、サンプル数<code>n</code>としたとき、不偏分散の自由度は、<code>n-k</code>と表されます。すなわち、説明変数をサンプル数に近づけるほど、不偏分散の自由度は減少し、推定誤差は大きくなっていきます。また、回帰係数<code>β^_j</code>の<code>100(1-α)%</code>信頼区間は<code>β^_j ± σ^・t_n-k,α/2・√c_jj</code>（データ解析のための数理統計入門pp198-202）と表せます。<strong>kが大きくなるほど回帰係数の推定精度が落ちる</strong>ことがわかります。</p>
+<h5 id="2">2. 過学習<a class="headerlink" href="#2" title="Permanent link">&para;</a></h5>
+<p><code>n=k</code>では自由度が<code>0</code>、決定係数<code>R^2=1</code>となることからわかるように、説明変数を増やすほど、モデルは学習データそのものには適合しやすくなります。その一方で、外部データへの適合度（汎化性能）は小さくなっていきます。これを過学習<em>Overfitting</em>といいます。</p>
+<p>上記2つを防ぐ目安として、経験則的に、変数1つあたり10のイベントが必要と言われています。(<a href="https://www.sciencedirect.com/science/article/pii/S0895435696002363?via%3Dihub">Peduzzi,1996</a>)</p>
+<h3 id="_4">多数の交絡をいかに制御するか<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>多数の交絡を同時に制御する最もシンプルな方法は、解析に足るほどにサンプルを充実させることです。しかし、<strong>医学研究では多くの場合、希少なイベント（死亡、有害事象、希少疾患の発生など）をアウトカムとして扱う</strong>事情から、十分なイベント数をもったサンプルを確保するには莫大なコストがかかってしまいます。</p>
+<p>そこで、複数の交絡を同時に制御するために考えられたのが、<em>Confounder summary score</em>です。</p>
+<p>この記事では、Confounder summary score、とりわけ、<em>Propensity score</em>を紹介します。</p>
+<h2 id="confounder-summary-score">Confounder summary score<a class="headerlink" href="#confounder-summary-score" title="Permanent link">&para;</a></h2>
+<p>交絡因子が多いなら、減らしてしまえばいいじゃない。Confounder summary scoreは、複数の交絡因子を一つに圧縮した新たなパラメータです。Confounder summary scoreには、<em>Disease risk score</em>およびpropensity scoreという、2つの異なる戦略が含まれます。</p>
+<h3 id="disease-risk-score">Disease risk score<a class="headerlink" href="#disease-risk-score" title="Permanent link">&para;</a></h3>
+<ul>
+<li>曝露<code>X</code>: <code>{0,1}</code></li>
+<li>交絡<code>C</code></li>
+<li>アウトカム<code>Y</code>: <code>{0,1}</code></li>
+</ul>
+<p>DRSではまず、交絡因子のみでアウトカムを説明するモデルを学習し、続いて、DRSと曝露XでYを説明するモデルを学習します。
+<code>DRS = P(Y=1|X=0,C)</code></p>
+<p>一見すると、変数を少なくし、Regression modelのoverfittingを防いだように思われますが、交絡因子が多い場合には、DRS自身が不安定になってしまいます。</p>
+<h2 id="propensity-score_1">Propensity score<a class="headerlink" href="#propensity-score_1" title="Permanent link">&para;</a></h2>
+<p>PSでは、交絡因子で曝露因子を説明するモデルを作成し、続いて、PSでYを説明するモデルを学習します。
+<code>PS = P(X=1|C)</code></p>
+<p><strong>DRSの安定性は、アウトカムの数(イベント数)に依存しますが、PSの安定性は、曝露の数に依存します</strong>。すなわち、PSは、アウトカムが稀で曝露が稀でない条件（ex. Exposure: アスベスト吸入、Outcome: 胸膜中皮腫発症）で力を発揮するということです。</p>
+<p>前述の通り、commonな曝露 x rareなイベントをもっぱら扱う医学研究では、PSが好んで用いられています。</p>
+<h3 id="propensity-score-matching">Propensity score matching<a class="headerlink" href="#propensity-score-matching" title="Permanent link">&para;</a></h3>
+<p>PSの強みは、背景因子のバランスをざっくり制御できることにあります。そこで、実際の研究では、<em>Propensity score matching</em>という解析手法をもってして、より広く利用されています。PSMは、観察研究において、各データポイントにおけるPSを算出し、<strong>PSが近しい曝露/非曝露の1対1ペアを作ることで、交絡を制御した擬似ランダム割り付けを実現する</strong>ものです。</p>
+<h4 id="standardized-mean-difference">Standardized mean difference<a class="headerlink" href="#standardized-mean-difference" title="Permanent link">&para;</a></h4>
+<p>PSMで2群に分けた際に、その2群の背景因子の差が十分に小さくなっているか測る客観的指標として、<em>Standardized mean difference</em>が用いられます。SMDは、2群のパラメータごとの平均値の差を標準化したものです。およそ、<code>SMD&lt;0.1</code>で、そのパラメータのバランスは十分とれているものと考えることが多いです。</p>
+<h3 id="inverse-probability-weighting">Inverse probability weighting<a class="headerlink" href="#inverse-probability-weighting" title="Permanent link">&para;</a></h3>
+<p>曝露されない傾向にある(PSが小さい)が実際には曝露された者、あるいは、曝露される傾向にある(PSが大きい)が実際には曝露されなかった者は、データポイントとして希少になります。これらの<strong>稀な組み合わせのデータポイントの重要性を強調するよう重み付けする</strong>ことで、よりランダム化らしい2群のサンプリングを目指したい。そこで考え出されたのが、Inverse probability weightingです。</p>
+<h2 id="propensity-score_2">Propensity scoreの注意点<a class="headerlink" href="#propensity-score_2" title="Permanent link">&para;</a></h2>
+<p>背景因子を揃えた擬似ランダム化を実現すると表現したものの、Propensity scoreで考慮されるのはあくまで既知の交絡因子です。本来のランダム化の強みは、未知の交絡因子を制御できることですが、<strong>PSでは未知の交絡因子は制御できない</strong>ことに注意が必要です。
+また、曝露がレアなとき、すなわち、<code>P(X=1)</code>が極端に小さいとき、PSは著しく不安定となります。</p>
+<h2 id="_5">参考文献<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Rothman. Epidemiology; An Introduction 2nd Edition. 2012.</li>
+<li>久保川. データ解析のための数理統計入門. 2023.</li>
+<li>磯,北村,服部,祖父江. 臨床医のための疫学・統計. 2023.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.top", "toc.integrate"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>
